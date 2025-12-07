@@ -10,6 +10,11 @@ A production-style web application that analyzes GitHub issues using AI-powered 
 - **Structured Output**: Returns analysis in a standardized JSON format
 - **User-Friendly UI**: Clean Streamlit interface for input and visualization
 
+## Screenshot
+
+<img width="2776" height="1354" alt="image" src="https://github.com/user-attachments/assets/d3b17158-b3df-4f2e-91c0-d032041b742e" />
+
+
 ## Project Structure
 
 ```
