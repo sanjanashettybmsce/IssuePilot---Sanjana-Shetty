@@ -1,4 +1,4 @@
-# IssuePilot-Sanjana-Shetty
+# IssuePilot
 
 A production-style web application that analyzes GitHub issues using AI-powered context enrichment and LLM analysis.
 
