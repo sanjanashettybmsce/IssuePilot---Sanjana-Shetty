@@ -114,23 +114,8 @@ Body:
 }
 ```
 
-## Available Gemini Models
 
-| Model | Description | Speed | Quality |
-|-------|-------------|-------|---------|
-| `gemini-2.0-flash` | Latest, fastest | ⚡⚡⚡ | ★★★★ |
-| `gemini-1.5-pro` | Balanced | ⚡⚡ | ★★★★★ |
-| `gemini-1.5-flash` | Fast, lightweight | ⚡⚡⚡ | ★★★ |
 
-## Key Differences from OpenAI API
-
-| Aspect | OpenAI | Gemini |
-|--------|--------|--------|
-| Library | `openai` Python package | Direct HTTP requests |
-| Auth Method | API key in client init | API key in query params |
-| Endpoint | Multiple endpoints | Single: `generateContent` |
-| Response Format | `.text` property | JSON with nested structure |
-| JSON Mode | `response_format={"type": "json_object"}` | `response_mime_type: "application/json"` |
 
 ## Error Handling
 
@@ -145,7 +130,7 @@ Both raise descriptive exceptions that bubble up to the API endpoint for proper 
 ### Quick Test
 ```bash
 cd /Users/sanjana/Desktop/IssuePilot
-python3 -c "from backend.config import config; config.validate(); print('✅ API key configured')"
+python3 -c "from backend.config import config; config.validate(); print(' API key configured')"
 ```
 
 ### Full Test
@@ -195,5 +180,3 @@ To revert back to OpenAI:
 
 ---
 
-**Migration Date:** December 2025
-**Status:** ✅ Complete
