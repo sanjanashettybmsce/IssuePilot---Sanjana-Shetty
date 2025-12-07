@@ -12,7 +12,7 @@ A production-style web application that analyzes GitHub issues using AI-powered 
 
 ## Screenshot
 
-<img width="2776" height="1354" alt="image" src="https://github.com/user-attachments/assets/d3b17158-b3df-4f2e-91c0-d032041b742e" />
+<img width="2828" height="1400" alt="image" src="https://github.com/user-attachments/assets/685f4dcf-9e20-43b1-ac40-b97e4be2be66" />
 
 <img width="2814" height="1450" alt="image" src="https://github.com/user-attachments/assets/be89037d-7250-45bc-8865-eff0160ba433" />
 
