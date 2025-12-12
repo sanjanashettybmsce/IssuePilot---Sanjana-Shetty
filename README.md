@@ -49,7 +49,7 @@ IssuePilot/
 - `GITHUB_TOKEN`: Personal GitHub access token (get from https://github.com/settings/tokens)
 - `GEMINI_API_KEY`: Google Gemini API key (get from https://aistudio.google.com/app/apikey)
 - `GITHUB_API_BASE_URL`: GitHub API base URL (default: https://api.github.com)
-- `GEMINI_MODEL`: LLM model to use (default: gemini-2.5-flash)
+- `GEMINI_MODEL`: LLM model to use (gemini-1.5-pro)
 
 ## API Endpoints
 
